@@ -58,11 +58,11 @@
 	</distributionManagement>-->
 	<distributionManagement>
 		<repository>
-			<id>maven-repo</id>
-			<url>file:${basedir}/repo</url>
+			<id>github</id>
+			<name>GitHub developer0718 Apache Maven Packages</name>  <!-- 改 OWNER -->
+			<url>https://maven.pkg.github.com/developer0718/socketio-spring-boot-starter</url>  <!-- 改 OWNER、REPOSITORY -->
 		</repository>
 	</distributionManagement>
-
 
 	<build>
 		<pluginManagement>
